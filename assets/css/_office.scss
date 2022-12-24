@@ -1,0 +1,78 @@
+.office-area {
+    width: 100%;
+    position: relative;
+
+    .office-heading {
+        text-align: center;
+        margin-bottom: 4rem;
+
+        h3 {
+            color: var(--h2Color);
+            font-size: 2.5rem;
+            font-weight: 500;
+        }
+
+        p {
+            max-width: 68rem;
+            margin: 0 auto;
+            line-height: 1.4;
+            padding: 3rem 0rem 2rem 0rem;
+        }
+
+        .img {
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .address-area {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        .found-us {
+            text-align: center;
+
+            .icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    width: 4rem;
+                    height: 4rem;
+                    background: #00c7fc;
+                    border-radius: 5rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: var(--fontColor);
+                    font-size: 2rem;
+                }
+            }
+
+            .content {
+
+                h3 {
+                    font-size: 1.7rem;
+                    font-weight: 500;
+                    color: var(--h2Color);
+                    padding: 2rem 0rem 1.5rem 0rem;
+
+                }
+
+                p {
+                    font-size: 1.4rem;
+                    font-weight: 400;
+                    
+                    a{
+                        display: inline-block;
+                        color: var(--pColor);
+                    }
+                }
+
+            }
+        }
+    }
+}

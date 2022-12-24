@@ -1,0 +1,87 @@
+.mail-area {
+    width: 100%;
+    position: relative;
+
+    .mail-heading {
+        text-align: center;
+
+        h2 {
+            font-size: 2.5rem;
+            color: var(--h2Color);
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        .img {
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .form-area {
+
+        form {
+
+            .half-form {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 3rem;
+
+                label {
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    color: var(--h2Color);
+
+                    .nirob {
+                        width: 100%;
+                        padding: 1.5rem 0.5rem;
+                        margin-top: 1rem;
+                        outline: none;
+                        background: #edf2f6;
+                        border: none;
+                        border-radius: 0.5rem;
+                    }
+                }
+            }
+
+            .full-form {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-gap: 3rem;
+                margin-top: 2rem;
+
+                label {
+                    font-size: 1.5rem;
+                    font-weight: 400;
+                    color: var(--h2Color);
+
+                    #text-area {
+                        width: 100%;
+                        outline: none;
+                        border: none;
+                        background: #edf2f6;
+                        padding: 1.5rem 0.5rem;
+                        height: 17rem;
+                        resize: vertical;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+
+            .submit{
+                text-align: center;
+                margin-top: 3rem;
+
+                button{
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

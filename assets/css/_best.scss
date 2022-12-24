@@ -1,0 +1,49 @@
+.best-area {
+    width: 100%;
+    position: relative;
+    padding-top: 0;
+
+    .best-heading {
+        text-align: center;
+        position: relative;
+        .img{
+            
+            img{
+                width: 100%;
+            }
+        }
+
+        h2 {
+            color: var(--h2Color);
+            margin-bottom: 1rem;
+        }
+    }
+
+    .technology-items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 3rem;
+        padding-top: 5rem;
+
+        .single-item{
+            img{
+                float: left;
+                margin-right: 1rem;
+                margin-top: 1rem;
+            }
+            .content{
+                
+                h3{
+                    font-size: 1.7rem;
+                    font-weight: 500;
+                }
+                p{
+                    font-size: 1.4rem;
+                    line-height: 1.4;
+                    font-weight: 400;
+                    padding: 1rem 0rem 0rem 0rem;
+                }
+            }
+        }
+    }
+}

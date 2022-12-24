@@ -1,0 +1,79 @@
+.modern2-area {
+    width: 100%;
+    position: relative;
+    padding-bottom: 0;
+    // &::after {
+    //     position: absolute;
+    //     content: '';
+    //     left: 0;
+    //     background: url(../img/2222.png) no-repeat;
+    //     width: 100%;
+    //     height: 15%;
+    // }
+
+    .modern-items {
+        max-width: 80rem;
+        position: relative;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 10rem;
+
+        .single-modern {
+            flex-basis: 50%;
+
+            img {
+                display: block;
+                float: right;
+            }
+
+            .second {
+                float: left;
+            }
+
+            .content {
+
+                h2 {
+                    font-size: 3.7rem;
+                    font-weight: 700;
+                    color: var(--h2Color);
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    padding: 2rem 0rem 2rem 0rem;
+                }
+            }
+
+            .thikmark {
+
+                ul {
+                    li {
+                        padding: 1rem 0rem 0rem 0rem;
+                        font-size: 1.3rem;
+                        font-weight: 400;
+                        color: var(--h2Color);
+
+                        i {
+                            margin-right: 1rem;
+                            color: var(--iconColor);
+                            font-size: 2rem;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .sado {
+            position: absolute;
+            left: 50%;
+            bottom: -10rem;
+            transform: translateX(-50%);
+        }
+
+    }
+}
